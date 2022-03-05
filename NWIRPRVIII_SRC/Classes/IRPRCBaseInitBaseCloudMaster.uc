@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (10-11-2013)
+//
+// NW3 INFRARED PRECISION RIFLE BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class IRPRCBaseInitBaseCloudMaster expands NWBaseCloudMaster;
+
+defaultproperties
+{
+	LifeSpan=6.000000
+}

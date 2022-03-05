@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (12-01-2014)
+//
+// NW3 ULTIMA PROTOS BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class UltimaSolarSNSolarFlr expands UltimaSolarSystemSolarFlr;
+
+defaultproperties
+{
+	fadeInTime=3.000000
+}

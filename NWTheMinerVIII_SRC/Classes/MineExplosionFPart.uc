@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (26-10-2013)
+//
+// NW3 THE MINER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class MineExplosionFPart expands MineExplosionPartC;
+
+defaultproperties
+{
+	EffectSound1=None
+	LightType=None
+	DrawScale=5.500000
+}

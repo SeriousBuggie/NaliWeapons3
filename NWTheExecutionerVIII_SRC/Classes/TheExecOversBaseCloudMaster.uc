@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (29-06-2013)
+//
+// NW3 THE EXECUTIONER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class TheExecOversBaseCloudMaster expands NWBaseCloudMaster;
+
+defaultproperties
+{
+	LifeSpan=15.000000
+}

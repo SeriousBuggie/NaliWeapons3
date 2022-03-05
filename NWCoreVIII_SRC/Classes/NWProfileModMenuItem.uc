@@ -1,0 +1,11 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (09-09-2012)
+//
+// NW3 CORE BUILD 1.00
+//////////////////////////////////////////////////////////////
+class NWProfileModMenuItem expands NWModMenuItem;
+
+defaultproperties
+{
+	ModMenuInfoClass=Class'NWProfileMainModMenuInfo'
+}

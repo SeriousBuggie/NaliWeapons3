@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (22-10-2012)
+//
+// NW3 CORE BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class NWGameplayProfileLoaderD expands NWDynamicProfileLoader;
+
+ 
+defaultproperties
+{
+	ProfileID=3
+	ProfileClass=Class'NWGameplayProfile'
+}

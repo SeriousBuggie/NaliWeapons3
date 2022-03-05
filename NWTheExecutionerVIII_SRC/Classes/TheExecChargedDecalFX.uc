@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (09-02-2012)
+//
+// NW3 THE EXECUTIONER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class TheExecChargedDecalFX expands NWDecalGen;
+
+defaultproperties
+{
+	DecalClass=Class'TheExecChargedDecal'
+}

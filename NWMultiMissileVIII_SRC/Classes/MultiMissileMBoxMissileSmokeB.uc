@@ -1,0 +1,31 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (03-11-2013)
+//
+// NW3 MULTIMISSILE LAUNCHER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class MultiMissileMBoxMissileSmokeB expands MultiMissileMBoxMissileSmoke;
+
+simulated function PostBeginPlay()
+{
+	if (Level.NetMode != NM_DedicatedServer)
+		Spawn(Class'MultiMissileMBoxMissileSmoke');
+	Super.PostBeginPlay();
+}
+
+defaultproperties
+{
+	Style=STY_Modulated
+	Texture=NWBlackASmk01
+	MultiSkins(0)=NWBlackASmk01
+	MultiSkins(1)=NWBlackASmk02
+	MultiSkins(2)=NWBlackASmk03
+	MultiSkins(3)=NWBlackASmk04
+	MultiSkins(4)=NWBlackASmk05
+	MultiSkins(5)=NWBlackASmk06
+	MultiSkins(6)=NWBlackASmk07
+	MultiSkins(7)=NWBlackASmk08
+
+	ScaleGlow=1.000000
+	bWhiteSmoke=False
+}

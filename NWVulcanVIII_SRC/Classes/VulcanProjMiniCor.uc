@@ -1,0 +1,13 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (15-10-2010)
+//
+// NW3 VULCAN BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class VulcanProjMiniCor expands VulcanProjCor;
+
+defaultproperties
+{
+	DrawScale=0.080000
+	SpriteProjForward=8.000000
+}

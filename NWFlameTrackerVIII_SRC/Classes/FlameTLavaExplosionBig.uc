@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (14-08-2013)
+//
+// NW3 FLAME TRACKER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class FlameTLavaExplosionBig expands FlameTLavaExplosion;
+
+defaultproperties
+{
+	bSpawnExplLight=False
+}

@@ -1,0 +1,13 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (07-08-2013)
+//
+// NW3 WAR READY ENFORCER 1.00
+//////////////////////////////////////////////////////////////
+
+class WRESoldExplCor expands WREGrenadeExplCor;
+
+defaultproperties
+{
+	MaxCoronaSize=25.000000
+	MinCoronaSize=10.000000
+}

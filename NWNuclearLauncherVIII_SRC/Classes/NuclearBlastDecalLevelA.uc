@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (23-06-2011)
+//
+// NW3 NUCLEAR LAUNCHER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class NuclearBlastDecalLevelA expands NuclearBlastDecal;
+
+defaultproperties
+{
+	DrawScale=2.000000
+}

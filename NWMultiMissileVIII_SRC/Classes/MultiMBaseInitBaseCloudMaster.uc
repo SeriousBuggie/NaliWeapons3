@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (02-11-2013)
+//
+// NW3 MULTIMISSILE LAUNCHER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class MultiMBaseInitBaseCloudMaster expands NWBaseCloudMaster;
+
+defaultproperties
+{
+	LifeSpan=6.000000
+}

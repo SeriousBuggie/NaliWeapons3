@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (18-04-2011)
+//
+// NW3 NUCLEAR LAUNCHER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class NukeDmgExplosionSoundless expands NukeDmgExplosion;
+
+defaultproperties
+{
+	EffectSound1=None
+}

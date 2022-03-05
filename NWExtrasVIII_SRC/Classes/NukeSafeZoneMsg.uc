@@ -1,0 +1,13 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (24-06-2011)
+//
+// NW3 EXTRAS BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class NukeSafeZoneMsg expands NukeCriticalZoneMsg;
+
+defaultproperties
+{
+	DrawColor=(R=0,G=255,B=0)
+	ZoneMsg="You're in the Safe Zone"
+}

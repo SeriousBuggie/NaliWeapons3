@@ -1,0 +1,13 @@
+//////////////////////////////////////////////////////////////
+//	Nali Weapons III Ambient Sound on shock effect
+//				Feralidragon (30-04-2011)
+//
+// NW3 CORE BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class NaliAmbShockSnd expands NaliAmbWeapSnd;
+
+defaultproperties
+{
+	Physics=PHYS_None
+}

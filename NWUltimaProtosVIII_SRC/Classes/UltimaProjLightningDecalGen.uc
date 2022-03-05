@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (12-10-2011)
+//
+// NW3 ULTIMA PROTOS BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class UltimaProjLightningDecalGen expands NWDecalGen;
+
+defaultproperties
+{
+	DecalClass=Class'UltimaLightningDecal'
+}

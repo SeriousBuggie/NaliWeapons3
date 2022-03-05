@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (19-02-2011)
+//
+// NW3 CYBOT LAUNCHER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class CybSuperShock expands CybShock;
+
+defaultproperties
+{
+	ScaleGlow=3.500000
+	LifeSpan=0.650000
+	DrawScale=50.000000
+}

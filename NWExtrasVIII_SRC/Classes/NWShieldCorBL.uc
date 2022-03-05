@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (18-08-2012)
+//
+// NW3 EXTRAS BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class NWShieldCorBL expands NWShieldCorB;
+
+defaultproperties
+{
+	LocOffset=(X=0.000000,Y=-19.000000,Z=0.000000)
+}

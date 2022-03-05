@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (14-11-2010)
+//
+// NW3 INFRARED PRECISION RIFLE BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class IRPRDecalFXR expands NWZPDecalGen;
+
+defaultproperties
+{
+	DecalClass=Class'IRPRDecalR'
+}

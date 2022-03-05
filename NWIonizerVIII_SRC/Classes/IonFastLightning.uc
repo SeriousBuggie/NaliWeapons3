@@ -1,0 +1,48 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (09-01-2012)
+//
+// NW3 IONIZER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class IonFastLightning expands IonLightning;
+
+#exec MESH IMPORT MESH=IonFastLightning ANIVFILE=MODELS\IonFastLightning_a.3d DATAFILE=MODELS\IonFastLightning_d.3d X=0 Y=0 Z=0
+#exec MESH LODPARAMS MESH=IonFastLightning STRENGTH=0
+#exec MESH ORIGIN MESH=IonFastLightning X=0 Y=0 Z=0
+
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=All STARTFRAME=0 NUMFRAMES=20
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Still STARTFRAME=0 NUMFRAMES=1
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric00 STARTFRAME=19 NUMFRAMES=1
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric01 STARTFRAME=0 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric02 STARTFRAME=1 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric03 STARTFRAME=2 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric04 STARTFRAME=3 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric05 STARTFRAME=4 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric06 STARTFRAME=5 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric07 STARTFRAME=6 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric08 STARTFRAME=7 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric09 STARTFRAME=8 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric10 STARTFRAME=9 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric11 STARTFRAME=10 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric12 STARTFRAME=11 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric13 STARTFRAME=12 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric14 STARTFRAME=13 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric15 STARTFRAME=14 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric16 STARTFRAME=15 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric17 STARTFRAME=16 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric18 STARTFRAME=17 NUMFRAMES=2 RATE=1.0
+#exec MESH SEQUENCE MESH=IonFastLightning SEQ=Electric19 STARTFRAME=18 NUMFRAMES=2 RATE=1.0
+
+#exec MESHMAP NEW MESHMAP=IonFastLightning MESH=IonFastLightning
+#exec MESHMAP SCALE MESHMAP=IonFastLightning X=0.2 Y=0.2 Z=0.4
+
+defaultproperties
+{
+	Mesh=IonFastLightning
+	LifeSpan=0.350000
+	FadeInTime=0.125000
+	FadeOutTime=0.125000
+	ElectricalTransTime=0.075000
+	ElectricSndVol=40.000000
+	ElectricSndRadius=8000.000000
+}

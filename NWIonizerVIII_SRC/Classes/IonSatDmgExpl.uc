@@ -1,0 +1,13 @@
+//////////////////////////////////////////////////////////////
+//				Feralidragon (14-01-2012)
+//
+// NW3 IONIZER BUILD 1.00
+//////////////////////////////////////////////////////////////
+
+class IonSatDmgExpl expands IonizerDebrisExpl;
+
+defaultproperties
+{
+	DrawScale=4.500000
+	ScaleGlow=1.500000
+}

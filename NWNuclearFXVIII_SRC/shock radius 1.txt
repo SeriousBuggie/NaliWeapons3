@@ -1,0 +1,3 @@
+Shock Radius: 240.0
+
+Nucleus Radius: 160.0
